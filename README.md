@@ -50,7 +50,10 @@ source venv/bin/activate  # 在 Windows 上使用 `venv\Scripts\activate`
 
 ```bash
 pip install -r requirements.txt
-```requirements.txt` 文件内容:
+```
+
+`requirements.txt` 文件内容:
+
 ```
 
 openai
@@ -65,6 +68,7 @@ argparse
 为了让Agent能够与大型语言模型交互，您需要配置API密钥。请将您的DeepSeek API密钥设置为环境变量。
 
 在Linux或macOS上:
+
 ```bash
 export DEEPSEEK_API_KEY="your_deepseek_api_key_here"
 ```
